@@ -11,7 +11,7 @@ public class fortinhtoancacsochan {
 		int i; // biến này để lặp không nên đưa vào trong vòng do...while
 		Scanner input = new Scanner(System.in);
 		do {
-			System.out.print("Nhập giới hạn dãy số cần tính : ");
+			System.out.print("Nhập test giới hạn dãy số cần tính : ");
 			a = input.nextInt();
 			for (n = 2; n <= a; n = n + 2) {
 				tong += n;
